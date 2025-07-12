@@ -1,0 +1,17 @@
+# 🖥️ Core App Dependencies
+streamlit
+groq
+python-dotenv
+
+# 📄 PDF Extraction & Export
+PyMuPDF            # for reading PDF (fitz)
+pdfkit             # for HTML to PDF
+wkhtmltopdf        # ensure it's installed locally, not just in pip
+
+# 🧠 Embeddings & Vector Store
+sentence-transformers
+chromadb           # your vector store
+faiss-cpu          # used by ChromaDB to index vectors efficiently
+
+# Optional (only if needed later)
+openai             # only if you try OpenAI models
