@@ -49,6 +49,3 @@ Each agent is only called when the user requests its output — reducing latency
 - 💾 **DuckDB** backend (for Streamlit Cloud compatibility)
 
 ---
-
-## 📁 Project Structure
-
